@@ -1,0 +1,60 @@
+/*setting of pricing header part*/
+
+#pricing-header{
+    width: 75vw;
+    padding: 5vw 15vw;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: var(--h1-size);
+    font-weight: 700;
+    line-height: 2vw;
+}
+
+input[type='range']{
+    margin-top: 4vw;
+}
+/*setting of range box*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        width: 80%;
+        -webkit-appearance: none;
+        background-color:var(--second-color);
+        cursor: pointer;
+
+    }
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 10px;
+        -webkit-appearance: none;
+        color:var(--first--color);
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance: none;
+        height: 10px;
+        background: #434343;
+        box-shadow: -400px 0 0 400px var(--first--color);
+    }
+}
+
+#time-select-button{
+    display: inline-block;
+    align-self: flex-end;
+    margin-right: 18vw;
+    margin-top: -4.5vw;
+}
+@media screen and (max-width: 770px) {
+    h1{
+        line-height: 3.5rem;
+    }
+    #time-select-button{
+        align-self:center;
+        order: 1;
+        margin-right: 0;
+        margin-top:10px;
+    }
+}

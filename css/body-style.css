@@ -1,0 +1,32 @@
+/*main setting*/
+*
+{
+    user-select: none;
+    -webkit-tap-highlight-color:transparent;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+   font-size:1.3rem;
+    --h1-size:2.5rem;
+    color: dimgrey;
+    /*color of them*/
+    --first--color:blueviolet;
+    /*color of box-shadow , ...*/
+    --second-color:#EEEEEE;
+    /*color of choosing*/
+    --select-color:#ffd2c3;
+    margin: 0;
+
+}
+#main-div{
+    margin:auto;
+}
+
+
+
+
+
