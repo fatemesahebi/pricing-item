@@ -18,19 +18,19 @@
     text-transform: capitalize;
 }
 
-.price{
+.card--price{
     font-size:var(--h1-size);
     font-weight: 700;
    margin-bottom: 3vw;
     display: inline-block;
 }
-.icon{
+.card--icon{
     /*display: inline-block;*/
 }
 p{
     display: inline-block;
 }
-.buy-btn {
+.card--btn {
     width: 90%;
     height: 7vh;
     text-align: center;
@@ -38,12 +38,12 @@ p{
     border: 2px solid var(--first--color);
     text-transform: capitalize;
 }
-.buy-btn:hover {
+.card--btn:hover {
     color:var(--select-color);
     background-color: var(--first--color);
     cursor: pointer;
 }
-.info{
+.card--info{
     color:#9E9E9E;
 }
 #popular--plan{
